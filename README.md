@@ -1,2 +1,6 @@
 # class14
-# class14assignment
+
+
+Assignment of class 14
+
+live link: https://minhajulislamiraz.github.io/class14/
