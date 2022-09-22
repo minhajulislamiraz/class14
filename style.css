@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: #7F56F5;
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 20%;
+    padding: 20px 0;
+}
+nav{
+    float: left;
+    width: 80%;
+    text-align: right;
+}
+nav ul{
+    list-style-type: none;
+    padding: 30px 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+nav ul li a:hover{
+    color: black;
+    transition: .3s;
+}
+.heading{
+    clear: left;
+    text-align: center;
+    margin: 200px 0;
+}
+.heading h1{
+    font-size: 50px;
+    color: white;
+    margin: 30px 0;
+}
+.heading p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.648);
+}
+.left-side{
+    float: left;
+    width: 50%;
+    padding: 100px 40px;
+}
+.main h2{
+    font-size: 32px;
+    margin: 30px 0;
+}
+.main p{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.right-side{
+    float: left;
+    width: 50%;
+    padding: 100px 20px;
+}
+.blog-img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.clear{
+    clear: left;
+}
+.btn{
+    background-color: #7F56F5;
+    padding: 15px 20px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+.btn:hover{
+    color: #7F56F5;
+    border: 2px solid #7F56F5;
+    background-color: white; 
+    transition: .4s;
+}
+footer{
+    background-color: #F5F5FA;
+    padding-top: 100px;
+}
+.footer-text{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.footer-text p{
+    margin: 20px 0;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+footer h5{
+    font-size: 25px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+
+    margin: 20px 0;
+   
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
